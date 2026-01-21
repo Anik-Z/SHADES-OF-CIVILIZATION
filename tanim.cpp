@@ -1266,7 +1266,7 @@ void suv()
 
 
 
-void updateVehicals(int value)                  ///AFID-7
+void updateVehicals(int value)                 
 {
     if(vehiclesRunning)
     {
@@ -1489,7 +1489,7 @@ void snow_fall()
 
 }
 
-void weather_update(int value)          ///AFID-9
+void weather_update(int value)          
 {
     icePosition-=iceSpeed;
     if(icePosition<-1.0)
@@ -1501,7 +1501,7 @@ void weather_update(int value)          ///AFID-9
     glutTimerFunc(60, weather_update, 0);
 }
 
-void ships()                                    ///OID-11
+void ships()                                    
 {
 /// ship1
 
